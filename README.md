@@ -26,12 +26,12 @@ git clone https://github.com/JU4ND213/prueba2_jdll.git
 cd prueba2_jdll
 ```
 2.Instalar dependencias Flutter:
-
+```bash
 flutter pub get
-
+```
 
 3.Configurar la base de datos MySQL:
-
+```bash
 CREATE DATABASE flutter_store;
 USE flutter_store;
 
@@ -49,14 +49,14 @@ CREATE TABLE productos (
   imagen VARCHAR(255),
   FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
-
+```
 
 4.Colocar los archivos PHP (productos.php, categorias.php, conexion.php) en el servidor local y ajustar la URL de la API en los .dart (http://10.0.2.2/flutter_store/...).
 
 5.Ejecutar la app:
-
+```bash
 flutter run
-
+```
 *Uso
 
 Desde el menú principal, navegar a Productos para ver el listado y agregar nuevos productos.
