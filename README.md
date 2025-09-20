@@ -24,7 +24,7 @@ La app incluye:
 ```bash
 git clone https://github.com/JU4ND213/prueba2_jdll.git
 cd prueba2_jdll
-
+```
 2.Instalar dependencias Flutter:
 
 flutter pub get
